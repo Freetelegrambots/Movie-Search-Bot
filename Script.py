@@ -243,9 +243,14 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = f"""<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}</b>
 
-<b>⚙️ sɪᴢᴇ : {file_size}</b>""" 
+<b>⚙️ sɪᴢᴇ : {file_size}</b>
+
+ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɪꜱ ᴀʟʀᴇᴀᴅʏ ʟᴇᴀᴋᴇᴅ ᴏɴ ɪɴᴛᴇʀɴᴇᴛ ⚠️ ᴡᴀᴛᴄʜ ʙᴇꜰᴏʀᴇ ɪᴛ ɢᴇᴛꜱ ʀᴇᴍᴏᴠᴇᴅ! ⚠️  
+════════════════════  
+ᴛᴇᴀᴍ :- ᴀꜱ ᴄɪɴᴇᴍᴀᴀ 🎬 ꜱʜᴀʀᴇ ᴡɪᴛʜ ʏᴏᴜʀ ꜰʀɪᴇɴᴅꜱ  
+❤️ ꜱᴜᴘᴘᴏʀᴛ ᴜꜱ ꜰᴏʀ ᴍᴏʀᴇ ᴜᴘᴅᴀᴛᴇꜱ"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -747,7 +752,4 @@ Example:- /set_caption 📕 File Name: {filename}
 
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
-
-    
+# Ask Doubt on telegram @KingVJ01    
