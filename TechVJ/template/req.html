@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{file_name}} | AS Cinemaa</title>
+    <script>
+        // Truncate title to 4 letters
+        document.title = document.title.split(' | ')[0].substring(0,4) + '... | AS Cinemaa';
+    </script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -51,11 +56,15 @@
             <h1 class="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-4">
                 AS Cinemaa
             </h1>
-            <div class="inline-block bg-black/30 rounded-xl px-6 py-3 border border-white/10">
-                <p class="text-base font-medium text-gray-300 truncate animate__animated animate__fadeIn">
-                    {{file_name.split(' ').slice(0,4).join(' ')}}...
-                </p>
-            </div>
+            <div class="inline-block bg-black/30 rounded-xl px-6 py-3 border border-white/10 max-w-xs">
+  <p class="text-xs font-medium text-gray-300 animate__animated animate__fadeIn">
+    <span class="block">
+      {{file_name.split(' ').slice(0, 4).join(' ')}} 
+    </span>
+    <span class="block truncate">
+      {{file_name.split(' ').slice(4).join(' ')}}
+    </span>
+  </p>
         </div>
 
         <!-- Video Player -->
@@ -68,8 +77,9 @@
             </video>
         </div>
 
-        <!-- Action Section -->
+          <!-- Action Section -->
         <div class="max-w-3xl mx-auto space-y-8">
+            <!-- Player Options -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <button onclick="vlc_player()" class="player-btn bg-black/30 p-4 rounded-xl border border-white/10 hover:border-purple-400 transition-all">
                     <svg class="w-8 h-8 mb-2 mx-auto text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -111,7 +121,7 @@
                 </div>
             </button>
 
-            <!-- Notifications -->
+                <!-- Notifications -->
             <div class="space-y-4">
                 <div class="p-4 bg-red-900/20 rounded-xl border border-red-800/50">
                     <p class="text-sm text-red-300 flex items-center space-x-2">
@@ -183,7 +193,7 @@
 
         function handleNetworkChange(online) {
             isOnline = online;
-            const message = online ? 'Network connection restored' : 'Network connection lost';
+            const message = online ? '网络连接已恢复' : '网络连接丢失';
             const color = online ? 'green' : 'red';
             showNotification(message, color);
             if(online) player.refresh();
@@ -197,7 +207,7 @@
             km_player: () => window.location.href = `intent:${videolink}#Intent;package=com.kmplayer;end`,
             hd_player: () => window.location.href = `intent:${videolink}#Intent;package=uplayer.video.player;end`,
             Download: () => {
-                if(!isOnline) return showNotification('Cannot download - No internet connection', 'red');
+                if(!isOnline) return showNotification('无法下载 - 无网络连接', 'red');
                 window.location.href = videolink;
             }
         };
@@ -208,7 +218,7 @@
             clearTimeout(activityTimeout);
             activityTimeout = setTimeout(() => {
                 player.pause();
-                showNotification('Playback paused due to inactivity', 'yellow');
+                showNotification('由于不活动，播放已暂停', 'yellow');
             }, 600000); // 10 minutes
         }
 
