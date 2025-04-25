@@ -3,9 +3,9 @@
 # Ask Doubt on telegram @KingVJ01
 
 class script(object):
-    START_TXT = """<b>ʜᴇʟʟᴏ {} ,
+    START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {} 👋,</blockquote>
     
-ɪ ᴀᴍ ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ. ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ...💸</b>"""
+I AM A LATEST ADVANCED AND POWERFUL AUTO FILTER BOT. YOU CAN USE ME IN YOUR GROUP TO PROVIDE MOVIE.</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -22,7 +22,7 @@ class script(object):
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://host.odivex.com/'>OᴅɪHᴏsᴛ</a> 
+‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
@@ -46,7 +46,7 @@ class script(object):
     SUBSCRIPTION_TXT = """
 <b>ʀᴇғᴇʀʀᴇ ʏᴏᴜʀ ʟɪɴᴋ ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅs, ғᴀᴍɪʟʏ, ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ɢʀᴏᴜᴘ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʀᴇᴍɪᴜᴍ ғᴏʀ {}
 
-ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=VJ-{}
+ʀᴇғᴇʀᴀʟ ʟɪɴᴋ - https://telegram.me/{}?start=MRx-{}
 
 ɪғ {} ᴜɴɪǫᴜᴇ ᴜsᴇʀ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴡɪᴛʜ ʏᴏᴜʀ ʀᴇғᴇʀᴀʟ ʟɪɴᴋ ᴛʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴀᴅᴅᴇᴅ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.
 
@@ -75,7 +75,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/vjupdates2/3)</code>
+<code>[Button Text](buttonurl:https://t.me/aaryan_sah)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -193,31 +193,55 @@ Nᴀᴍᴇ - {}"""
 ʏᴏᴜ ᴀʀᴇ ᴜꜱɪɴɢ ᴏɴᴇ ᴏꜰ ᴍʏ ᴏʟᴅ ᴍᴇꜱꜱᴀɢᴇꜱ, 
 ᴘʟᴇᴀꜱᴇ ꜱᴇɴᴅ ᴛʜᴇ ʀᴇQᴜᴇꜱᴛ ᴀɢᴀɪɴ."""
 
-    CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
-ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
+    CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ :- {}
+    
+ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?
+
+𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 𝙷𝙴𝚁𝙴 👉 AS Support Group,
+𝚈𝙾𝚄 𝚆𝙸𝙻𝙻 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙸𝙽 𝚂𝙾𝙼𝙴 𝚃𝙸𝙼𝙴
+
+𝙰𝙽𝙳 𝙿𝙻𝙴𝙰𝚂𝙴 𝙲𝙷𝙴𝙲𝙺 𝙿𝙸𝙽𝙽𝙴𝙳 𝚅𝙸𝙳𝙴𝙾 𝙲𝙰𝚁𝙴𝙵𝚄𝙻𝙻𝚈 😇"""
 
     I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕
 
 ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃
 
-ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
+𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 𝙷𝙴𝚁𝙴 👉 AS Support Group,
+𝚈𝙾𝚄 𝚆𝙸𝙻𝙻 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙸𝙽 𝚂𝙾𝙼𝙴 𝚃𝙸𝙼𝙴
 
-ᴇxᴀᴍᴘʟᴇ : Uncharted or Uncharted 2022 or Uncharted En
+𝙰𝙽𝙳 𝙿𝙻𝙴𝙰𝚂𝙴 𝙲𝙷𝙴𝙲𝙺 𝙿𝙸𝙽𝙽𝙴𝙳 𝚅𝙸𝙳𝙴𝙾 𝙲𝙰𝚁𝙴𝙵𝚄𝙻𝙻𝚈 😇</b>"""
 
-ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
-
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
-
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
-ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
+ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ...
 
-    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
+𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 𝙷𝙴𝚁𝙴 👉 AS Support Group,
+𝚈𝙾𝚄 𝚆𝙸𝙻𝙻 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙸𝙽 𝚂𝙾𝙼𝙴 𝚃𝙸𝙼𝙴"""
+
+    MVE_NT_FND = """ᴍᴏᴠɪᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ ɪɴ ᴅᴀᴛᴀʙᴀꜱᴇ...
+
+    𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙴𝙽𝙳 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 𝙷𝙴𝚁𝙴 👉 AS Support Group,
+    𝚈𝙾𝚄 𝚆𝙸𝙻𝙻 𝙶𝙴𝚃 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 𝙸𝙽 𝚂𝙾𝙼𝙴 𝚃𝙸𝙼𝙴"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️
+    
+    ✅ 𝙋𝙡𝙚𝙖𝙨𝙚 𝘾𝙝𝙚𝙘𝙠 𝙂𝙧𝙤𝙪𝙥 𝙍𝙪𝙡𝙚
+    
+    ♻️ Tɪᴘ ᴛᴏ ᴜsᴇ ʙᴏᴛ : ᴅᴏɴ'ᴛ ɪɴᴄʟᴜᴅᴇ ᴀɴʏᴛʜɪɴɢ ᴏᴛʜᴇʀ ᴛʜᴀɴ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ. 
+
+    Exᴀᴍᴘʟᴇ:   
+    Lᴏᴋɪ S01E05 ✅
+    Lᴏᴋɪ S01 ✅
+    Lᴏᴋɪ Sᴇᴀsᴏɴ 1 Eᴘɪsᴏᴅᴇ 5 ❌
+
+    Tɪɢᴇʀ 3 2023 ✅
+    Tɪɢᴇʀ 3 2023 Hɪɴᴅɪ ✅
+    Tɪɢᴇʀ 3 2023 Hɪɴᴅɪ Dᴜʙʙᴇᴅ ❌
+    Tɪɢᴇʀ 3 2023 Mᴏᴠɪᴇ❌
+
+    Thank You ❤️</b>"""
 
     SHORTLINK_INFO = """
 
@@ -244,9 +268,12 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
-
-<b>⚙️ sɪᴢᴇ : {file_size}</b>""" 
+    CAPTION = """<b><a href=https://t.me/my_Support_group>🗃️ AS Cinemaa {file_name}</a>
+<b>═════════════════════
+➜ Updates @as_Cinema_Updates
+➜ Chat Support @my_Support_group
+════════════════════
+ꜱʜᴀʀᴇ ᴡɪᴛʜ ʏᴏᴜʀ ꜰʀɪᴇɴᴅꜱ</b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -626,7 +653,7 @@ Also your tutorial will be Added Your Group..."""
 
  کیسے اور کیا کرنا ہے۔
 
- مرحلہ 1: اپنے گروپ میں اس AS-FILTER-BOT بوٹ کا انتظام کریں۔
+ مرحلہ 1: اپنے گروپ میں اس AS-BOT بوٹ کا انتظام کریں۔
 
  مرحلہ 2: اپنی ویب سائٹ اور API شامل کریں۔
 
