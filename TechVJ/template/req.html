@@ -56,15 +56,11 @@
             <h1 class="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-4">
                 AS Cinemaa
             </h1>
-            <div class="inline-block bg-black/30 rounded-xl px-6 py-3 border border-white/10 max-w-xs">
-  <p class="text-xs font-medium text-gray-300 animate__animated animate__fadeIn">
-    <span class="block">
-      {{file_name.split(' ').slice(0, 4).join(' ')}} 
-    </span>
-    <span class="block truncate">
-      {{file_name.split(' ').slice(4).join(' ')}}
-    </span>
-  </p>
+            <div class="inline-block bg-black/30 rounded-xl px-6 py-3 border border-white/10">
+                <p class="text-lg font-medium text-gray-300 truncate animate__animated animate__fadeIn">
+                    {{file_name}}
+                </p>
+            </div>  
         </div>
 
         <!-- Video Player -->
